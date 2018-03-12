@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JCompare</title>
+	<link rel="stylesheet" type="text/css" href="cc/jqGrid_JS/css/ui.jqgrid-bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="cc/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script type="text/javascript" src="cc/jqGrid_JS/js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="cc/jqGrid_JS/js/i18n/grid.locale-cn.js"></script>
+	<script type="text/javascript" src="cc/jqGrid_JS/js/jquery.jqGrid.min.js"></script>
+	<script type="text/javascript" src="cc/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<table id="list"></table>
+	<div id="pager"></div>
+	<div>
+		<button class="right-button02" onclick="openDialog4Adding()">添加</button>
+		<button class="right-button02" onclick="openDialog4Update()">修改</button>
+		<button class="right-button02" onclick="openDialog4Delete()">删除</button>
+	</div>
+	<div id="consoleDlg">
+		<div id="formContainer">
+			<form id="consoleForm">
+			<input type="hidden" id="selectId" />
+			<talbe class="formTable">
+				<tr>
+					<th>
+						姓名：
+					</th>
+					<td>
+						<input type="text" class="textField" id="ename" name="ename" />
+					</td>
+				</tr></br>
+				<tr>
+					<th id="thusergender">
+						性别:
+					</th>
+					<td>
+						<input type="text" class="textField" id="esex" name="esex" />
+					</td>
+				</tr></br>
+				<tr>
+					<th>
+						出生日期：
+					</th>
+					<td>
+						<input type="text" class="textField" id="birthday" name="birthday" />
+					</td>
+				</tr></br>
+				<tr>
+					<th>
+						部门：
+					</th>
+					<td>
+						<input type="text" class="textField" id="department" name="department" />
+					</td>
+				</tr></br>
+				<tr>
+					<th>
+						备注：
+					</th>
+					<td>
+						<input type="text" class="textField" id="eremark" name="eremark" />
+					</td>
+				</tr></br>
+			</talbe>
+		</form>
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="cc/a.js">
+<script type="text/javascript" src="cc/b.js">
+
+</script>
